@@ -11,7 +11,8 @@
   </div>
 </template>
 <script lang="ts">
-export default {
+import { defineComponent } from 'vue'
+export default defineComponent({
   name: 'AppFooter',
   props: {
     author: {
@@ -23,7 +24,7 @@ export default {
       required: true
     }
   }
-}
+})
 </script>
 <style scoped>
 .credits {

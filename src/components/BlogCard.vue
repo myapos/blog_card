@@ -10,11 +10,12 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue'
 import CardDescription from './CardDescription.vue'
 import CardTag from './CardTag.vue'
 import CardImage from './CardImage.vue'
 import CardHeader from './CardHeader.vue'
-export default {
+export default defineComponent({
   name: 'BlogCard',
   components: { CardDescription, CardTag, CardImage, CardHeader },
   props: {
@@ -41,7 +42,7 @@ export default {
       required: true
     }
   }
-}
+})
 </script>
 
 <style scoped>

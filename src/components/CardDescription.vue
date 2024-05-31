@@ -6,8 +6,9 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue'
 import CardReadMore from './CardReadMore.vue'
-export default {
+export default defineComponent({
   name: 'CardDescription',
   components: { CardReadMore },
   props: {
@@ -16,7 +17,7 @@ export default {
       required: true
     }
   }
-}
+})
 </script>
 
 <style scoped></style>
