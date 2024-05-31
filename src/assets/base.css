@@ -1,0 +1,7 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --neutral-subtle: #f9fafb;
+  --radius: 5px;
+  --shadow: 5px 5px 15px lightgrey;
+  --gap: 1rem;
+}

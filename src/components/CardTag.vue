@@ -1,0 +1,28 @@
+<template>
+  <div class="tag border-green-200 border-2 bg-green-50 text-green-700 text-sm rounded-full">
+    {{ tag }}
+  </div>
+</template>
+
+<script lang="ts">
+export default {
+  name: 'CardTag',
+  props: {
+    tag: {
+      type: String,
+      required: true,
+      default: ''
+    }
+  }
+}
+</script>
+
+<style scoped>
+.tag {
+  width: 67px;
+  height: 24px;
+  display: flex;
+  place-items: center;
+  place-content: center;
+}
+</style>
