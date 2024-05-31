@@ -12,5 +12,3 @@ export default defineComponent({
   components: { AppLink, AppRightArrow }
 })
 </script>
-
-<style scoped></style>

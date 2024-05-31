@@ -1,5 +1,8 @@
 <template>
-  <div class="tag border-green-200 border-2 bg-green-50 text-green-700 text-sm rounded-full">
+  <div
+    class="min-h[24px] flex min-w-[67px] place-content-center place-items-center rounded-full
+      border-2 border-green-200 bg-green-50 text-sm text-green-700 py-0 px-2"
+  >
     {{ tag }}
   </div>
 </template>
@@ -17,14 +20,3 @@ export default defineComponent({
   }
 })
 </script>
-
-<style scoped>
-.tag {
-  min-width: 67px;
-  min-height: 24px;
-  padding: 0 0.5rem;
-  display: flex;
-  place-items: center;
-  place-content: center;
-}
-</style>

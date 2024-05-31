@@ -9,8 +9,8 @@
     />
 
     <card-list />
-    <app-footer author="Myron Apostolakis" username="myapos-598" />
   </main>
+  <app-footer author="Myron Apostolakis" username="myapos-598" />
 </template>
 
 <script lang="ts">
@@ -27,9 +27,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-main {
-  height: 100%;
-}
-</style>

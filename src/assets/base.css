@@ -2,6 +2,9 @@
 :root {
   --neutral-subtle: #f9fafb;
   --radius: 5px;
-  --shadow: 5px 5px 15px lightgrey;
   --gap: 1rem;
+  --card-img-height: 288px;
+  --card-container-width: 340px;
+  --card-margin-top: 120px;
+  --footer-text-color: #777;
 }

@@ -1,5 +1,5 @@
 <template>
-  <img class="img" />
+  <img class="img w-full h-[--card-img-height] rounded-[--radius] object-cover" />
 </template>
 
 <script lang="ts">
@@ -8,12 +8,3 @@ export default defineComponent({
   name: 'CardImage'
 })
 </script>
-
-<style scoped>
-.img {
-  width: 100%;
-  height: 288px;
-  object-fit: cover;
-  border-radius: var(--radius);
-}
-</style>
