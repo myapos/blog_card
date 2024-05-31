@@ -8,8 +8,7 @@
       description="Curated vibrants Colors for your living, make it pop & calm in the same time."
     />
 
-    <!-- uncomment to test a card list approach -->
-    <!-- <card-list /> -->
+    <card-list v-if="showCardList" />
   </main>
   <app-footer author="Myron Apostolakis" username="myapos-598" />
 </template>
@@ -24,7 +23,8 @@ export default {
   name: 'App',
   components: { AppFooter, BlogCard, CardList },
   data() {
-    return { imgSrc }
+    // set showCardList to true to test a card list approach
+    return { imgSrc, showCardList: false }
   }
 }
 </script>
