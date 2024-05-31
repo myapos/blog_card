@@ -8,7 +8,8 @@
       description="Curated vibrants Colors for your living, make it pop & calm in the same time."
     />
 
-    <card-list />
+    <!-- uncomment to test a card list approach -->
+    <!-- <card-list /> -->
   </main>
   <app-footer author="Myron Apostolakis" username="myapos-598" />
 </template>
