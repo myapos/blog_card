@@ -2,7 +2,7 @@
 
 # GreatFrontEnd Projects Challenge - blog-card
 
-This a conding challenge published in [GreatFrontEnd](https://www.greatfrontend.com) platform and it's main taks is to implement a reusable, responsive card that will be used as a building block in blogs. This implementation
+This a conding challenge published in [GreatFrontEnd](https://www.greatfrontend.com) platform and it's main task is to implement a reusable, responsive card that will be used as a building block in blogs. This implementation
 is using Vue3 and Tailwind CSS.
 
 [Demo URL](https://blog-card-neon.vercel.app/)
