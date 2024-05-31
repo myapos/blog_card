@@ -9,5 +9,3 @@ export default defineComponent({
   name: 'AppRightArrow'
 })
 </script>
-
-<style scoped></style>

@@ -1,17 +1,24 @@
 <template>
-  <div class="credits" data-gfe-screenshot-exclude="true">
+  <div
+    class="credits fixed bottom-6 left-1/2 translate-x-[-50%] text-xs text-[--footer-text-color]
+      text-center"
+    data-gfe-screenshot-exclude="true"
+  >
     A challenge by
     <a href="https://www.greatfrontend.com/projects?ref=challenges" target="_blank"
       >GreatFrontEnd Projects</a
     >. Built by
-    <a :href="`https://www.greatfrontend.com/projects/u/${username}`" target="_blank">{{
-      author
-    }}</a
+    <a
+      :href="`https://www.greatfrontend.com/projects/u/${username}`"
+      target="_blank"
+      class="font-bold text-black"
+      >{{ author }}</a
     >.
   </div>
 </template>
 <script lang="ts">
-export default {
+import { defineComponent } from 'vue'
+export default defineComponent({
   name: 'AppFooter',
   props: {
     author: {
@@ -23,20 +30,5 @@ export default {
       required: true
     }
   }
-}
+})
 </script>
-<style scoped>
-.credits {
-  position: fixed;
-  bottom: 24px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #777;
-  font-size: 11px;
-}
-
-.credits a {
-  color: #000;
-  font-weight: bold;
-}
-</style>
