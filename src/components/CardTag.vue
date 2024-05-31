@@ -20,8 +20,9 @@ export default defineComponent({
 
 <style scoped>
 .tag {
-  width: 67px;
-  height: 24px;
+  min-width: 67px;
+  min-height: 24px;
+  padding: 0 0.5rem;
   display: flex;
   place-items: center;
   place-content: center;

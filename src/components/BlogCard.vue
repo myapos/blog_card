@@ -51,6 +51,7 @@ export default defineComponent({
   margin-top: 120px;
   height: auto;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
