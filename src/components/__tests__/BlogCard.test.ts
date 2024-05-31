@@ -23,6 +23,7 @@ describe('BlogCard', () => {
     expect(wrapper.get('img').attributes('src')).toEqual(cardProps.imgSrc)
     expect(wrapper.get('img').attributes('alt')).toEqual(cardProps.alt)
     expect(wrapper.text()).toContain(cardProps.header)
+    expect(wrapper.text()).toContain('Read More')
     expect(wrapper.text()).toContain(cardProps.description)
     expect(wrapper.text()).toContain(cardProps.tag)
   })
