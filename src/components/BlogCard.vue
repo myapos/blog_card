@@ -1,7 +1,7 @@
 <template>
   <div
     class="blog-card flex flex-col gap-[--gap] justify-between w-[--card-container-width]
-      border-neutral-200 bg-white rounded-[--radius] h-auto mx-auto mt-[--card-margin-top] shadow-lg
+      border-neutral-200 bg-white rounded-[--radius] h-auto mx-auto mt-[--card-margin-top] shadow-md
       mb-4"
     tabindex="0"
   >
